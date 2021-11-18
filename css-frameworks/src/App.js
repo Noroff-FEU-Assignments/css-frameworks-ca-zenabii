@@ -1,11 +1,9 @@
 import React from "react";
 import './sass/style.scss';
+import Home from "./components/Home"
 
 function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;

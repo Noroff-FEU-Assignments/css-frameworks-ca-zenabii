@@ -1,0 +1,30 @@
+.navbar-brand {
+  font-family: $title-primary;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.container-fluid > .navbar-brand {
+  color: $pink-500;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $title-primary;
+  font-weight: 400;
+  font-size: 34px;
+  color: $pink-500;
+}
+
+p {
+  font-family: $paragraph;
+  color: $grey-300;
+  font-size: 16px;
+}
+
+.paragraph_margin {
+  margin-bottom: 90px;
+}

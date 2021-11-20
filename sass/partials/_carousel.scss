@@ -1,0 +1,14 @@
+.carousel-indicators [data-bs-target] {
+  height: 30px;
+  width: 30px;
+  background-color: $white-100;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: $pink-500;
+}
+
+.carousel {
+  margin-bottom: 50px;
+}

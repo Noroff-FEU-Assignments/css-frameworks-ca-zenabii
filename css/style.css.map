@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,IAAI;AACJ,IAAI,CAAC;EACH,MAAM,EAAE,IAAI;CACb;;AAED,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB;;AAED,AAAA,QAAQ,CAAC;EACP,IAAI,EAAE,QAAQ;CACf;;AEZD,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,KAAK;EACb,gBAAgB,EHGP,OAAO;EGFhB,aAAa,EAAE,IAAI;CACpB;;AAED,AAAA,QAAQ,CAAC;EACP,KAAK,EAAE,IAAI;CACZ;;ACRD,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,CAAC;EACd,eAAe,EAAE,aAAa;EAC9B,gBAAgB,EAAE,iBAAiB;EACnC,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,KAAK;CACf;;AAED,AAAA,MAAM,CAAC,CAAC,CAAC;EACP,KAAK,EAAE,OAAO;CACf;;AAED,AAAA,MAAM,CAAC,CAAC,AAAA,MAAM,CAAC;EACb,KAAK,EAAE,KAAK;CACb;;AAED,AAAA,MAAM,CAAC,CAAC,CAAC;EACP,SAAS,EAAE,GAAG;CACf;;ACrBD,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/partials/_base.scss",
+        "../sass/partials/_layout.scss",
+        "../sass/partials/_typography.scss",
+        "../sass/partials/_news.scss",
+        "../sass/partials/_footer.scss",
+        "../sass/partials/_contact.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

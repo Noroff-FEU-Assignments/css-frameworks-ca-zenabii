@@ -45,8 +45,27 @@ $navbar-light-brand-hover-color: #e92569;
 }
 
 @media (max-width: 768px) {
-  .navbar {
+  .navbar > .container {
+    position: relative;
+  }
+  .navbar-collapse {
     position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: $grey-100;
+    z-index: 10;
+    width: 100%;
+    box-shadow: 5px 16px 22px $grey-300;
+  }
+
+  .form-mobile {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 15px 24px !important;
   }
 }
 

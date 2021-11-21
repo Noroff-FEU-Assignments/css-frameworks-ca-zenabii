@@ -3,6 +3,8 @@
 }
 
 .container {
+  flex: 1;
+
   &__contact-form {
     background: $gradient;
     padding: 10px;

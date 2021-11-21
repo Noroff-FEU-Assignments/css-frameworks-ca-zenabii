@@ -1,5 +1,6 @@
 img.img_height {
-  height: 149px;
+  height: auto;
+  max-width: 100%;
 }
 
 html,
@@ -19,9 +20,9 @@ body {
 }
 
 .wrapper {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 h1, .h1,
@@ -144,7 +145,12 @@ footer {
   color: #767676;
   padding: 0.8em;
   background-color: #ffffff;
-  height: 50px;
+}
+
+@media (max-width: 576px) {
+  footer {
+    padding: 50px 0px;
+  }
 }
 
 footer a {
@@ -162,6 +168,12 @@ footer i {
 
 .map_width {
   width: 160px;
+}
+
+.container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .container__contact-form {
@@ -297,8 +309,26 @@ form > .form-control {
 }
 
 @media (max-width: 768px) {
-  .navbar {
+  .navbar > .container {
+    position: relative;
+  }
+  .navbar-collapse {
     position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: #efefef;
+    z-index: 10;
+    width: 100%;
+    -webkit-box-shadow: 5px 16px 22px #767676;
+            box-shadow: 5px 16px 22px #767676;
+  }
+  .form-mobile {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .navbar-nav .nav-link {
+    padding: 15px 24px !important;
   }
 }
 

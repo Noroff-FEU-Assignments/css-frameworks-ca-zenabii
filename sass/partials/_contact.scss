@@ -1,3 +1,93 @@
 .map_width {
   width: 160px;
 }
+
+.container {
+  &__contact-form {
+    background: $gradient;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 16px 22px $grey-200;
+  }
+
+  &__information {
+    padding-top: 150px;
+    padding-left: 50px;
+    max-width: 300px;
+  }
+}
+
+.contact_title {
+  margin: 50px 0px;
+}
+
+.form-control,
+input {
+  border: 0px !important;
+}
+
+label {
+  font-family: $title-secondary;
+}
+
+.input-group-text {
+  color: $white-100 !important;
+  background-color: $grey-200 !important;
+  border: 1px solid $grey-200 !important;
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 0.25em;
+}
+
+.form-check .form-check-input {
+  float: left;
+  margin-left: -1.5em;
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 0.25em;
+}
+
+.form-check .form-check-input {
+  float: left;
+  margin-left: -1.5em;
+}
+
+.form-check-input {
+  width: 2em !important;
+  height: 2em !important;
+  margin-top: 0.35em !important;
+  margin-bottom: 1.2em !important;
+  background-color: $pink-500 !important;
+  border: 1px solid $pink-500 !important;
+}
+
+.form-check-label {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.btn-primary {
+  &__submit {
+    background-color: $grey-300 !important;
+    color: $white-100 !important;
+  }
+}
+
+.fas {
+  font-size: 35px;
+  margin-bottom: 40px;
+  color: $grey-300;
+}
+
+@media (max-width: 1024px) {
+  .form-check-label {
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+
+  .form-check {
+    display: flex !important;
+  }
+}

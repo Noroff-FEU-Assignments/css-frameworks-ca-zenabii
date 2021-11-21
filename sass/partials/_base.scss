@@ -11,3 +11,9 @@ $gradient: radial-gradient(#ffffff, #e5e5e5);
 $title-primary: "Playfair Display", serif;
 $title-secondary: "Lato", sans-serif;
 $paragraph: "Lato", sans-serif;
+
+img {
+  &.img_height {
+    height: 149px;
+  }
+}

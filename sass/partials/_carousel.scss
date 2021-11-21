@@ -1,11 +1,11 @@
-.carousel-indicators [data-bs-target] {
+#carouselExampleIndicators > .carousel-indicators [data-bs-target] {
   height: 30px;
   width: 30px;
   background-color: $white-100;
   opacity: 1;
 }
 
-.carousel-indicators .active {
+#carouselExampleIndicators > .carousel-indicators .active {
   background-color: $pink-500;
 }
 

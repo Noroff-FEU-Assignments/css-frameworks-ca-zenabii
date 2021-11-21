@@ -1,7 +1,12 @@
-#bootstrap-overrides > .nav-tabs .nav-link {
-  width: 100px;
+.mobile_img {
+  max-height: 175px;
+  display: flex;
+  margin: 0 auto;
 }
 
-button > #first-tab > .nav-link:active {
-  width: 100px;
+@media (max-width: 768px) {
+  .mobile_height {
+    height: 300px;
+    object-fit: cover;
+  }
 }

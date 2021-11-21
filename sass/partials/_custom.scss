@@ -1,0 +1,114 @@
+// GENERAL STYLING
+
+$light: $grey-100;
+
+.navbar > .bg-light {
+  background-color: $grey-100;
+}
+
+.nav-link.active,
+.nav-item.show .nav-link {
+  width: 100%;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+.item-tab > .nav-link {
+  color: $pink-500;
+}
+
+.tab-pane {
+  border-radius: 0px 15px 15px 15px;
+  box-shadow: 10px 16px 22px $grey-200;
+  border: 1px solid $grey-200;
+  z-index: 1;
+  position: absolute;
+}
+
+.tab-content {
+  margin-bottom: 400px;
+}
+
+.padding_container {
+  padding: 50px;
+}
+
+.nav-tabs .nav-link {
+  font-size: 19px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  border-radius: 15px 15px 0px 0px;
+  z-index: 2;
+  position: relative;
+}
+
+.align-self-start,
+.align-self-end {
+  &__alignment {
+    padding-left: 20px;
+  }
+}
+
+.align-self-end {
+  &__alignment {
+    padding-top: 50px;
+  }
+}
+
+p > .fab {
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.accordion-item:first-of-type {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: $pink-500 !important;
+  background-color: $white-100 !important;
+  border-bottom: 1px solid;
+}
+
+.accordion-button::after {
+  background-image: none !important;
+}
+
+.accordion-header {
+  font-family: $title-secondary;
+}
+
+.accordion-item:last-of-type {
+  border-bottom-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+.accordion {
+  box-shadow: 0px 16px 22px $grey-200;
+  border-radius: 10px;
+}
+
+.accordion-item {
+  background-color: #fff;
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.accordion-body {
+  background-color: $grey-100;
+}

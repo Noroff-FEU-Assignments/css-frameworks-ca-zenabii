@@ -1,0 +1,46 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: $title-primary;
+  font-weight: 400;
+  font-size: 34px;
+  color: $pink-500;
+}
+
+h5 {
+  font-family: $paragraph;
+  font-style: 20px;
+  color: $grey-400;
+}
+
+p {
+  font-family: $paragraph;
+  color: $grey-300;
+  font-size: 16px;
+
+  &.contact_styling {
+    margin-left: 30px;
+  }
+
+  &.card-text {
+    font-family: $paragraph;
+    color: $grey-300;
+    font-size: 16px;
+  }
+
+  &.share_style {
+    font-weight: 500;
+    color: $grey-400;
+
+    &__mobile {
+      text-align: center;
+      color: $grey-400;
+      padding-top: 20px;
+    }
+  }
+}
+
+.paragraph_margin {
+  margin-bottom: 90px;
+}

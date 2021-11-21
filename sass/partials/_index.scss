@@ -1,0 +1,12 @@
+.mobile_img {
+  max-height: 175px;
+  display: flex;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .mobile_height {
+    height: 300px;
+    object-fit: cover;
+  }
+}

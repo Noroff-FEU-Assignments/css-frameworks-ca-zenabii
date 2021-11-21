@@ -14,6 +14,7 @@ $paragraph: "Lato", sans-serif;
 
 img {
   &.img_height {
-    height: 149px;
+    height: auto;
+    max-width: 100%;
   }
 }

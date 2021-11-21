@@ -8,7 +8,12 @@ footer {
   color: $grey-300;
   padding: 0.8em;
   background-color: $white-100;
-  height: 50px;
+}
+
+@media (max-width: 576px) {
+  footer {
+    padding: 50px 0px;
+  }
 }
 
 footer a {
